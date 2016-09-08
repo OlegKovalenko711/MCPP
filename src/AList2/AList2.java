@@ -13,7 +13,7 @@ public class AList2 implements EList {
     public void clear() {
         start = end = arr.length / 2;
     }
-
+    
     @Override
     public void init(int[] ini) {
         clear();
